@@ -1,0 +1,36 @@
+{
+  "schema": "clarivy-public-raw-response/v1",
+  "order_id": "ord_clarivy_observe_selfaudit_20260626_001",
+  "source_order_id": "ord_clarivy_observe_selfaudit_20260626_001",
+  "publication_status": "approved_public_self_audit",
+  "evidence_type": "clarivy_owned_public_self_audit",
+  "measurement_mode": "live_engine_data",
+  "target_brand": "clarivy.ai",
+  "engine": "doubao",
+  "engine_display": "豆包 Doubao (ByteDance)",
+  "prompt_id": "U01",
+  "prompt_category": "category_user_chosen",
+  "prompt_text": "What is Clarivy and what does it offer for AI visibility?",
+  "sampled_at": "2026-06-26T07:01:46.887Z",
+  "final_sampled_at": "2026-06-26T07:01:46.887Z",
+  "model_version": "doubao-seed-2-0-mini-260428",
+  "method": "API · ZDR",
+  "latency_ms": 9473,
+  "result_state": "ok",
+  "response": "Clarivy is a generative AI observability platform designed to deliver end-to-end visibility into AI systems (including LLMs, RAG workflows, and custom generative AI applications) for engineering, DevOps, and product teams.\n\nFor AI visibility, it offers:\n1. Full pipeline tracing: Tracks every component of AI interactions, including prompts, model outputs, retrieved context (for RAG), latency, token usage, and error events.\n2. Debugging and root-cause analysis: Enables teams to resolve issues like hallucinations, bad outputs, or slow responses by drilling into individual query details and prompt variations.\n3. Performance and cost monitoring: Tracks key metrics such as throughput, latency, token consumption, per-query costs, and model drift over time.\n4. Safety and compliance visibility: Monitors for risks like prompt injection, harmful outputs, and data leaks to support regulatory requirements.\n5. Seamless integrations: Works with popular AI tools (OpenAI, Anthropic, LangChain, LlamaIndex) to integrate into existing AI stacks without heavy custom work.\n\nSource: https://clarivy.com/",
+  "citations": [],
+  "mention_count": 1,
+  "error": null,
+  "public_redaction": {
+    "generated_at": "2026-06-26T08:34:03.844Z",
+    "raw_transport_payloads_removed": true,
+    "local_paths_removed": true,
+    "credential_like_values_removed": true,
+    "internal_retry_history_removed": true
+  },
+  "publication_provenance": {
+    "successful_datapoints_are_immutable": true,
+    "failed_datapoints_may_be_recovered_by_later_live_attempts": true,
+    "public_raw_exposes_final_sampled_timestamp_only": true
+  }
+}

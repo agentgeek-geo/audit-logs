@@ -1,0 +1,38 @@
+{
+  "schema": "clarivy-public-raw-response/v1",
+  "order_id": "ord_clarivy_observe_selfaudit_20260626_001",
+  "source_order_id": "ord_clarivy_observe_selfaudit_20260626_001",
+  "publication_status": "approved_public_self_audit",
+  "evidence_type": "clarivy_owned_public_self_audit",
+  "measurement_mode": "live_engine_data",
+  "target_brand": "clarivy.ai",
+  "engine": "kimi",
+  "engine_display": "Kimi (Moonshot AI)",
+  "prompt_id": "U02",
+  "prompt_category": "category_user_chosen",
+  "prompt_text": "Which company provides measured AI visibility monitoring with raw AI response evidence?",
+  "sampled_at": "2026-06-26T07:04:06.188Z",
+  "final_sampled_at": "2026-06-26T07:04:06.188Z",
+  "model_version": "kimi-k2.6",
+  "method": "API · ZDR",
+  "latency_ms": 138630,
+  "result_state": "ok",
+  "response": "**Profound**（前身为 Profound AI）是目前提供这项服务的代表性公司。该平台专门监测品牌在各大生成式 AI（如 ChatGPT、Perplexity、Claude 等）中的可见度，并会留存**原始 AI 回复证据**（raw AI response evidence），以量化方式展示 AI 如何提及、描述或推荐特定品牌。\n\n参考链接：\n- [Profound 官网](https://www.useprofound.com/)",
+  "citations": [
+    "https://www.useprofound.com/"
+  ],
+  "mention_count": 0,
+  "error": null,
+  "public_redaction": {
+    "generated_at": "2026-06-26T08:34:03.844Z",
+    "raw_transport_payloads_removed": true,
+    "local_paths_removed": true,
+    "credential_like_values_removed": true,
+    "internal_retry_history_removed": true
+  },
+  "publication_provenance": {
+    "successful_datapoints_are_immutable": true,
+    "failed_datapoints_may_be_recovered_by_later_live_attempts": true,
+    "public_raw_exposes_final_sampled_timestamp_only": true
+  }
+}

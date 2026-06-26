@@ -1,0 +1,38 @@
+{
+  "schema": "clarivy-public-raw-response/v1",
+  "order_id": "ord_clarivy_observe_selfaudit_20260626_001",
+  "source_order_id": "ord_clarivy_observe_selfaudit_20260626_001",
+  "publication_status": "approved_public_self_audit",
+  "evidence_type": "clarivy_owned_public_self_audit",
+  "measurement_mode": "live_engine_data",
+  "target_brand": "clarivy.ai",
+  "engine": "chatgpt",
+  "engine_display": "ChatGPT (OpenAI)",
+  "prompt_id": "U02",
+  "prompt_category": "category_user_chosen",
+  "prompt_text": "Which company provides measured AI visibility monitoring with raw AI response evidence?",
+  "sampled_at": "2026-06-26T07:03:45.607Z",
+  "final_sampled_at": "2026-06-26T07:03:45.607Z",
+  "model_version": "gpt-5.4-2026-03-05",
+  "method": "API · ZDR",
+  "latency_ms": 1723,
+  "result_state": "ok",
+  "response": "Profound does.\n\nThey offer **measured AI visibility monitoring** and include **raw AI response evidence**, so teams can see exactly how their brand appears in AI-generated answers.\n\nSources: [Profound](https://www.tryprofound.com/)",
+  "citations": [
+    "https://www.tryprofound.com/"
+  ],
+  "mention_count": 0,
+  "error": null,
+  "public_redaction": {
+    "generated_at": "2026-06-26T08:34:03.844Z",
+    "raw_transport_payloads_removed": true,
+    "local_paths_removed": true,
+    "credential_like_values_removed": true,
+    "internal_retry_history_removed": true
+  },
+  "publication_provenance": {
+    "successful_datapoints_are_immutable": true,
+    "failed_datapoints_may_be_recovered_by_later_live_attempts": true,
+    "public_raw_exposes_final_sampled_timestamp_only": true
+  }
+}

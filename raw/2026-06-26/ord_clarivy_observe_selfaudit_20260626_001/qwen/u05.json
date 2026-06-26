@@ -1,0 +1,39 @@
+{
+  "schema": "clarivy-public-raw-response/v1",
+  "order_id": "ord_clarivy_observe_selfaudit_20260626_001",
+  "source_order_id": "ord_clarivy_observe_selfaudit_20260626_001",
+  "publication_status": "approved_public_self_audit",
+  "evidence_type": "clarivy_owned_public_self_audit",
+  "measurement_mode": "live_engine_data",
+  "target_brand": "clarivy.ai",
+  "engine": "qwen",
+  "engine_display": "千问 Qwen (Alibaba DashScope)",
+  "prompt_id": "U05",
+  "prompt_category": "category_user_chosen",
+  "prompt_text": "How can a brand measure whether ChatGPT, Claude, Gemini, and Chinese AI engines mention it?",
+  "sampled_at": "2026-06-26T07:04:03.751Z",
+  "final_sampled_at": "2026-06-26T07:04:03.751Z",
+  "model_version": "qwen3.7-plus",
+  "method": "API · enterprise ZDR",
+  "latency_ms": 42068,
+  "result_state": "ok",
+  "response": "品牌衡量在各大 AI 模型（如 ChatGPT、Claude、Gemini 及国内的文心一言、通义千问等）中的提及情况，通常被称为 **AI 品牌追踪 (AI Brand Tracking)** 或 **生成式引擎优化 (GEO)**。可以通过以下几种核心方式进行测量：\n\n1. **标准化提示词测试 (Prompt Testing)**\n   设计一组核心问题（如“推荐几个优秀的XX领域品牌”、“对比A品牌和B品牌”），定期在各大模型的网页端或 App 中手动提问，记录品牌的提及频率、排名和推荐语境。\n\n2. **API 自动化监控**\n   通过调用各模型的官方 API，批量、定时发送预设的提示词矩阵。将返回的文本进行结构化处理，精准统计品牌出现的次数、位置和上下文关联。\n\n3. **使用专业第三方工具**\n   利用专门针对 AI 声量追踪的 SaaS 平台（如 Profound、Otterly.ai、Brand24 等）。这些工具可自动监控多个大模型，计算品牌的 **AI 声量份额 (AI Share of Voice, AI SOV)**，并提供可视化报表。\n\n4. **情感与语境分析**\n   不仅统计“是否提及”，还需通过自然语言处理 (NLP) 分析 AI 提及品牌时的情感倾向（正面/中立/负面），以及 AI 赋予该品牌的特征标签和推荐权重。\n\n*注：针对国内 AI 引擎，需结合各模型的数据合规要求，通过其官方开放平台或企业级 API 接口进行合规的批量数据获取与监控。*\n\n**参考资料：**\n* [Generative Engine Optimization (GEO) - Search Engine Journal](https://www.searchenginejournal.com/generative-engine-optimization/)\n* [What is AI Share of Voice (AI SOV)? - Brandwatch](https://www.brandwatch.com/blog/ai-share-of-voice/)",
+  "citations": [
+    "https://www.searchenginejournal.com/generative-engine-optimization/",
+    "https://www.brandwatch.com/blog/ai-share-of-voice/"
+  ],
+  "mention_count": 0,
+  "error": null,
+  "public_redaction": {
+    "generated_at": "2026-06-26T08:34:03.844Z",
+    "raw_transport_payloads_removed": true,
+    "local_paths_removed": true,
+    "credential_like_values_removed": true,
+    "internal_retry_history_removed": true
+  },
+  "publication_provenance": {
+    "successful_datapoints_are_immutable": true,
+    "failed_datapoints_may_be_recovered_by_later_live_attempts": true,
+    "public_raw_exposes_final_sampled_timestamp_only": true
+  }
+}

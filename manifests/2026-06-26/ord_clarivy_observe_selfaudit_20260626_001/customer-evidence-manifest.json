@@ -1,0 +1,364 @@
+{
+  "schema": "clarivy-public-evidence-manifest/v1",
+  "package_version": "v1",
+  "generated_at": "2026-06-26T08:34:03.844Z",
+  "date": "2026-06-26",
+  "order_id": "ord_clarivy_observe_selfaudit_20260626_001",
+  "target_brand": "clarivy.ai",
+  "sample_slug": "clarivy-observe-self-audit-2026-06-26",
+  "publication_status": "approved_public_self_audit",
+  "evidence_type": "clarivy_owned_public_self_audit",
+  "measurement_mode": "live_engine_data",
+  "source": {
+    "source_order_id": "ord_clarivy_observe_selfaudit_20260626_001",
+    "sku": "snapshot",
+    "order_file": "audit-logs/orders/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001.json",
+    "delivery_manifest": "audit-logs/deliveries/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/delivery-manifest.json",
+    "delivery_mode": "real"
+  },
+  "release_gate": {
+    "required_datapoints": 35,
+    "required_content_bearing_datapoints": 35,
+    "passed": true,
+    "allow_partial_public": false
+  },
+  "provenance": {
+    "successful_datapoints_are_immutable": true,
+    "failed_datapoints_may_be_recovered_by_later_live_attempts": true,
+    "public_raw_exposes_final_sampled_timestamp_only": true,
+    "internal_attempt_history_source": "audit-logs/engine-health/engine-health.jsonl"
+  },
+  "result_summary": {
+    "total_datapoints": 35,
+    "interpretable_datapoints": 35,
+    "content_bearing_datapoints": 35,
+    "empty_responses": 0,
+    "error_responses": 0,
+    "total_mentions_of_clarivy": 12,
+    "unique_engines": 7,
+    "unique_prompts": 5
+  },
+  "files": [
+    {
+      "path": "raw/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/chatgpt/u01.json",
+      "sha256": "6f33189202a7c86a93e58cb633c51ee47d5cf8ca2df8569687624f1a8fe9d2cf",
+      "bytes": 2605,
+      "engine": "chatgpt",
+      "prompt_id": "U01",
+      "result_state": "ok",
+      "mention_count": 1
+    },
+    {
+      "path": "raw/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/chatgpt/u02.json",
+      "sha256": "f2f84a081e8deece4700ac539efde27227777c25f767f39dfb0e89b041a13b3f",
+      "bytes": 1608,
+      "engine": "chatgpt",
+      "prompt_id": "U02",
+      "result_state": "ok",
+      "mention_count": 0
+    },
+    {
+      "path": "raw/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/chatgpt/u03.json",
+      "sha256": "bb725f45b4162440aecdc09f9db09e42aac1c4fe2fd9143d6dcc50c98a9ead86",
+      "bytes": 4242,
+      "engine": "chatgpt",
+      "prompt_id": "U03",
+      "result_state": "ok",
+      "mention_count": 0
+    },
+    {
+      "path": "raw/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/chatgpt/u04.json",
+      "sha256": "56f670a168b54bd9ae521238c1a777ff7e0b2f676dd4e83b1e734d963e27b05d",
+      "bytes": 4178,
+      "engine": "chatgpt",
+      "prompt_id": "U04",
+      "result_state": "ok",
+      "mention_count": 0
+    },
+    {
+      "path": "raw/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/chatgpt/u05.json",
+      "sha256": "e1053a690a6fe899deae32028e25eb659d10581eff1c14c454861b59933b440d",
+      "bytes": 4048,
+      "engine": "chatgpt",
+      "prompt_id": "U05",
+      "result_state": "ok",
+      "mention_count": 0
+    },
+    {
+      "path": "raw/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/claude/u01.json",
+      "sha256": "b09d02b2756ea7581fd2dfc4f8881a1dbd447d078c35c9103f2e4e8db31169ae",
+      "bytes": 2780,
+      "engine": "claude",
+      "prompt_id": "U01",
+      "result_state": "ok",
+      "mention_count": 1
+    },
+    {
+      "path": "raw/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/claude/u02.json",
+      "sha256": "0f0b64775a654959c4827ec2773b11baf681e34ddfcffc0931064c7e713387b3",
+      "bytes": 1988,
+      "engine": "claude",
+      "prompt_id": "U02",
+      "result_state": "ok",
+      "mention_count": 0
+    },
+    {
+      "path": "raw/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/claude/u03.json",
+      "sha256": "489c32711aba5c2a77a9d0fad613e92cc009e11beabc94a896a2f09790e182fd",
+      "bytes": 2708,
+      "engine": "claude",
+      "prompt_id": "U03",
+      "result_state": "ok",
+      "mention_count": 1
+    },
+    {
+      "path": "raw/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/claude/u04.json",
+      "sha256": "0b9346e4143125953c9e8a756a4461e074d7c65e1492252b3a9c63cfbb988a1c",
+      "bytes": 3693,
+      "engine": "claude",
+      "prompt_id": "U04",
+      "result_state": "ok",
+      "mention_count": 0
+    },
+    {
+      "path": "raw/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/claude/u05.json",
+      "sha256": "77453615bb356d62483a7054a3d62d72026cac8cdda3d28acbb61d48f30ef425",
+      "bytes": 3434,
+      "engine": "claude",
+      "prompt_id": "U05",
+      "result_state": "ok",
+      "mention_count": 0
+    },
+    {
+      "path": "raw/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/deepseek/u01.json",
+      "sha256": "f0b42006aeb145ff2c68196e9addb027a56079b0d2df76c6514d1b12e57c6eb2",
+      "bytes": 2047,
+      "engine": "deepseek",
+      "prompt_id": "U01",
+      "result_state": "ok",
+      "mention_count": 1
+    },
+    {
+      "path": "raw/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/deepseek/u02.json",
+      "sha256": "c937f2759e7ce5fcf9cc30a16603b38510fdcac1a50d1d08ccf858296d6a6c52",
+      "bytes": 1642,
+      "engine": "deepseek",
+      "prompt_id": "U02",
+      "result_state": "ok",
+      "mention_count": 0
+    },
+    {
+      "path": "raw/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/deepseek/u03.json",
+      "sha256": "87877ca7d331dacaa3619d7ed7e587dc59668ab6afac23a0394a27f207c32c2c",
+      "bytes": 2393,
+      "engine": "deepseek",
+      "prompt_id": "U03",
+      "result_state": "ok",
+      "mention_count": 1
+    },
+    {
+      "path": "raw/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/deepseek/u04.json",
+      "sha256": "2cb91437c4b858cb8fa7761af6ff041ae7d7ed65538f904982df2f76499dc604",
+      "bytes": 2835,
+      "engine": "deepseek",
+      "prompt_id": "U04",
+      "result_state": "ok",
+      "mention_count": 0
+    },
+    {
+      "path": "raw/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/deepseek/u05.json",
+      "sha256": "41af7c62fd5d7cda4a5569e95253a19c4a96d73dd60b6a31729da84fb7cd6728",
+      "bytes": 2763,
+      "engine": "deepseek",
+      "prompt_id": "U05",
+      "result_state": "ok",
+      "mention_count": 0
+    },
+    {
+      "path": "raw/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/doubao/u01.json",
+      "sha256": "c6f14f1bae7253b361a6d69ea484a9a25e1dc312f73952f19c71ebde0ebcc75c",
+      "bytes": 2428,
+      "engine": "doubao",
+      "prompt_id": "U01",
+      "result_state": "ok",
+      "mention_count": 1
+    },
+    {
+      "path": "raw/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/doubao/u02.json",
+      "sha256": "d6e394e6530b0e19689756fed4e645169ae8c6f0d561eef71365a3784bf15eb3",
+      "bytes": 1661,
+      "engine": "doubao",
+      "prompt_id": "U02",
+      "result_state": "ok",
+      "mention_count": 0
+    },
+    {
+      "path": "raw/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/doubao/u03.json",
+      "sha256": "88a8f392e8423ff25f50a5652a86d2aeba4c37770d72003e38e1ab57503a5df6",
+      "bytes": 2532,
+      "engine": "doubao",
+      "prompt_id": "U03",
+      "result_state": "ok",
+      "mention_count": 1
+    },
+    {
+      "path": "raw/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/doubao/u04.json",
+      "sha256": "3d5f794bfdbc3e87d742cee7c0287ae6dd3d97dbd2e6baa541edf3e92972783d",
+      "bytes": 2341,
+      "engine": "doubao",
+      "prompt_id": "U04",
+      "result_state": "ok",
+      "mention_count": 0
+    },
+    {
+      "path": "raw/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/doubao/u05.json",
+      "sha256": "5289e9bd679f6258b0c4ac897d80ad38d0b5d3b3334b28bf075ecb5fd639f105",
+      "bytes": 2630,
+      "engine": "doubao",
+      "prompt_id": "U05",
+      "result_state": "ok",
+      "mention_count": 0
+    },
+    {
+      "path": "raw/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/gemini_aio/u01.json",
+      "sha256": "0ce430b0a7ac63e46fe77a75d6666ff3de4d59d4a03c63626828ec64abb97c78",
+      "bytes": 1468,
+      "engine": "gemini_aio",
+      "prompt_id": "U01",
+      "result_state": "ok",
+      "mention_count": 1
+    },
+    {
+      "path": "raw/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/gemini_aio/u02.json",
+      "sha256": "f730ebb26f461b186353ad17b8a2ff2501f470c9b1f9c0603242eef6c1ee95f4",
+      "bytes": 1434,
+      "engine": "gemini_aio",
+      "prompt_id": "U02",
+      "result_state": "ok",
+      "mention_count": 0
+    },
+    {
+      "path": "raw/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/gemini_aio/u03.json",
+      "sha256": "ec523224323e8ff9759a7e1566ad211abd317560a532622458d7a52483ab3826",
+      "bytes": 1455,
+      "engine": "gemini_aio",
+      "prompt_id": "U03",
+      "result_state": "ok",
+      "mention_count": 0
+    },
+    {
+      "path": "raw/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/gemini_aio/u04.json",
+      "sha256": "869081b2215e6051cce56dea53e6008e1466bb6edd5f7e8ec3969755b4fda9c0",
+      "bytes": 1446,
+      "engine": "gemini_aio",
+      "prompt_id": "U04",
+      "result_state": "ok",
+      "mention_count": 0
+    },
+    {
+      "path": "raw/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/gemini_aio/u05.json",
+      "sha256": "963f894be8d48e2e058b7930d51242d1304801fab9a2ca332c432c1d6e53e983",
+      "bytes": 1520,
+      "engine": "gemini_aio",
+      "prompt_id": "U05",
+      "result_state": "ok",
+      "mention_count": 0
+    },
+    {
+      "path": "raw/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/kimi/u01.json",
+      "sha256": "66f5ed97aef345a78785830c8601992d2c85092423a15ec5d597638ae648ae90",
+      "bytes": 1584,
+      "engine": "kimi",
+      "prompt_id": "U01",
+      "result_state": "ok",
+      "mention_count": 1
+    },
+    {
+      "path": "raw/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/kimi/u02.json",
+      "sha256": "22053e2ec59a557ece6021c610414702aad7e552b6e49b7fcd851b0e1793af25",
+      "bytes": 1772,
+      "engine": "kimi",
+      "prompt_id": "U02",
+      "result_state": "ok",
+      "mention_count": 0
+    },
+    {
+      "path": "raw/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/kimi/u03.json",
+      "sha256": "24e5f2683fb425f9191ea9a7d8e7730c0f4bf6179623394f86c0e09507ae1192",
+      "bytes": 2315,
+      "engine": "kimi",
+      "prompt_id": "U03",
+      "result_state": "ok",
+      "mention_count": 1
+    },
+    {
+      "path": "raw/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/kimi/u04.json",
+      "sha256": "cc24b651cdee033120dac042f03cdac5fb05df390ead0e4c761d931c52c3b6ba",
+      "bytes": 3124,
+      "engine": "kimi",
+      "prompt_id": "U04",
+      "result_state": "ok",
+      "mention_count": 0
+    },
+    {
+      "path": "raw/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/kimi/u05.json",
+      "sha256": "20ff01b20c587942c47040def9d91fa5bfb8360d6373f3a9778de833fa575f7f",
+      "bytes": 3211,
+      "engine": "kimi",
+      "prompt_id": "U05",
+      "result_state": "ok",
+      "mention_count": 0
+    },
+    {
+      "path": "raw/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/qwen/u01.json",
+      "sha256": "64928115e90094348e5cb832477e712f160fa4464a7efd06ef93ade9c2bff989",
+      "bytes": 2901,
+      "engine": "qwen",
+      "prompt_id": "U01",
+      "result_state": "ok",
+      "mention_count": 1
+    },
+    {
+      "path": "raw/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/qwen/u02.json",
+      "sha256": "c8a1747d73c0038d6b7293eae399c27a2dea2d7f2b9fc120607cdc2c7ce371b2",
+      "bytes": 3098,
+      "engine": "qwen",
+      "prompt_id": "U02",
+      "result_state": "ok",
+      "mention_count": 0
+    },
+    {
+      "path": "raw/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/qwen/u03.json",
+      "sha256": "c33699e1bf835c4c22093166cb2e75f6c2217acbaa8f8dfdcc4eacac9dffbc8f",
+      "bytes": 2191,
+      "engine": "qwen",
+      "prompt_id": "U03",
+      "result_state": "ok",
+      "mention_count": 1
+    },
+    {
+      "path": "raw/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/qwen/u04.json",
+      "sha256": "a827878dfc54e4bf1d3dec56bf3ad2494fdfd418171f79ef69243e6b0e8a3a8d",
+      "bytes": 3817,
+      "engine": "qwen",
+      "prompt_id": "U04",
+      "result_state": "ok",
+      "mention_count": 0
+    },
+    {
+      "path": "raw/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/qwen/u05.json",
+      "sha256": "f362a2a5e1e97b8e0729f11a3953caec119186b592b7f3d9928f94d22d3fb140",
+      "bytes": 3221,
+      "engine": "qwen",
+      "prompt_id": "U05",
+      "result_state": "ok",
+      "mention_count": 0
+    }
+  ],
+  "indexes": {
+    "raw_data_index": "manifests/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/raw-data-index.md",
+    "checksums": "manifests/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/checksums.sha256",
+    "sample_readme": "samples/clarivy-observe-self-audit-2026-06-26/README.md",
+    "public_summary": "samples/clarivy-observe-self-audit-2026-06-26/public-summary.json"
+  }
+}

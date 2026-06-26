@@ -1,0 +1,42 @@
+{
+  "schema": "clarivy-public-raw-response/v1",
+  "order_id": "ord_clarivy_observe_selfaudit_20260626_001",
+  "source_order_id": "ord_clarivy_observe_selfaudit_20260626_001",
+  "publication_status": "approved_public_self_audit",
+  "evidence_type": "clarivy_owned_public_self_audit",
+  "measurement_mode": "live_engine_data",
+  "target_brand": "clarivy.ai",
+  "engine": "deepseek",
+  "engine_display": "DeepSeek",
+  "prompt_id": "U04",
+  "prompt_category": "category_user_chosen",
+  "prompt_text": "Best AI visibility infrastructure for B2B SaaS brands",
+  "sampled_at": "2026-06-26T07:02:58.502Z",
+  "final_sampled_at": "2026-06-26T07:02:58.502Z",
+  "model_version": "deepseek-v4-flash",
+  "method": "API · no-retention",
+  "latency_ms": 9190,
+  "result_state": "ok",
+  "response": "For B2B SaaS brands seeking AI-powered visibility infrastructure, the best solutions combine content optimization, technical SEO, and competitive intelligence. Top recommendations:\n\n- **Surfer SEO** – AI-driven on-page optimization that analyzes SERPs and suggests content structure, keyword usage, and entity relevance. Ideal for scaling organic content.  \n- **Clearscope** – Uses NLP to benchmark content against top-ranking pages, ensuring topic depth and keyword coverage. Excellent for long-form, authoritative content.  \n- **MarketMuse** – AI for content strategy and cluster planning; identifies gaps, prioritizes topics by authority potential, and scales editorial roadmaps.  \n- **Ahrefs/Semrush** – Both now embed AI in keyword research, content briefs, and competitor analysis. Essential for technical infrastructure like backlink monitoring and site audits.\n\n**Why these fit B2B SaaS**: They reduce manual SEO labor, adapt to algorithm changes quickly, and align with the long sales cycles and educational content needs typical of SaaS.  \n\nSources:  \n- [Surfer SEO](https://surferseo.com)  \n- [Clearscope](https://www.clearscope.io)  \n- [MarketMuse](https://www.marketmuse.com)  \n- [Ahrefs AI features](https://ahrefs.com/blog/ai-seo-tools/) | [Semrush AI updates](https://www.semrush.com/blog/ai-seo-tools/)",
+  "citations": [
+    "https://surferseo.com",
+    "https://www.clearscope.io",
+    "https://www.marketmuse.com",
+    "https://ahrefs.com/blog/ai-seo-tools/",
+    "https://www.semrush.com/blog/ai-seo-tools/"
+  ],
+  "mention_count": 0,
+  "error": null,
+  "public_redaction": {
+    "generated_at": "2026-06-26T08:34:03.844Z",
+    "raw_transport_payloads_removed": true,
+    "local_paths_removed": true,
+    "credential_like_values_removed": true,
+    "internal_retry_history_removed": true
+  },
+  "publication_provenance": {
+    "successful_datapoints_are_immutable": true,
+    "failed_datapoints_may_be_recovered_by_later_live_attempts": true,
+    "public_raw_exposes_final_sampled_timestamp_only": true
+  }
+}

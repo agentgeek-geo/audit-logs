@@ -1,0 +1,36 @@
+{
+  "schema": "clarivy-public-raw-response/v1",
+  "order_id": "ord_clarivy_observe_selfaudit_20260626_001",
+  "source_order_id": "ord_clarivy_observe_selfaudit_20260626_001",
+  "publication_status": "approved_public_self_audit",
+  "evidence_type": "clarivy_owned_public_self_audit",
+  "measurement_mode": "live_engine_data",
+  "target_brand": "clarivy.ai",
+  "engine": "chatgpt",
+  "engine_display": "ChatGPT (OpenAI)",
+  "prompt_id": "U04",
+  "prompt_category": "category_user_chosen",
+  "prompt_text": "Best AI visibility infrastructure for B2B SaaS brands",
+  "sampled_at": "2026-06-26T07:04:03.113Z",
+  "final_sampled_at": "2026-06-26T07:04:03.113Z",
+  "model_version": "gpt-5.4-2026-03-05",
+  "method": "API · ZDR",
+  "latency_ms": 7980,
+  "result_state": "ok",
+  "response": "For **B2B SaaS brands**, the best “AI visibility infrastructure” usually means the stack and processes that help your brand:\n\n1. **Get cited or recommended by LLMs/search assistants**\n2. **Control how your content is discovered, parsed, and trusted**\n3. **Measure AI-driven visibility and traffic**\n4. **Continuously optimize content/entity presence across the web**\n\n## Best overall approach\nThere isn’t one single perfect platform yet. The strongest setup is usually:\n\n### 1. **Profound** — best dedicated AI visibility / LLM brand monitoring platform\nBest if you want to track how often your brand appears in AI answers, compare against competitors, and identify visibility gaps.\n\n**Why it stands out**\n- Built specifically for **AI search / LLM answer visibility**\n- Tracks **brand mentions, citations, and competitive presence**\n- Useful for enterprise or growth-stage B2B SaaS teams that want a dedicated category tool\n\n**Best for**\n- Mid-market to enterprise SaaS\n- Competitive intelligence in AI search\n- Teams with budget for a specialized platform\n\n---\n\n### 2. **Scrunch AI** — best for enterprise AI discoverability and governance\nStrong option if you want to understand and improve how AI systems interpret your company across channels.\n\n**Why it stands out**\n- Focuses on **AI discoverability**\n- Helps brands structure and manage how they are represented to AI systems\n- Good fit for larger organizations with multiple products, markets, and messaging layers\n\n**Best for**\n- Enterprise B2B SaaS\n- Complex brand architecture\n- Teams needing governance + visibility strategy\n\n---\n\n### 3. **Semrush / Ahrefs + structured content ops** — best practical stack for most SaaS companies\nIf you want the most cost-effective setup today, this is often the best answer.\n\n**Use them for**\n- Topic authority mapping\n- Competitor content gap analysis\n- SERP visibility\n- Backlink/entity-building signals\n- Content refresh workflows\n\nThen combine with:\n- **Schema markup**\n- **Clear product/service pages**\n- **FAQ and comparison pages**\n- **Author/entity signals**\n- **Digital PR / third-party mentions**\n- **Server log and referral analysis for AI traffic**\n\n**Best for**\n- Startups and growth-stage SaaS\n- Teams that need ROI now\n- Companies not ready for a niche AI visibility vendor\n\n---\n\n### 4. **Peec AI / similar emerging AI search analytics tools** — best for early AI-search experimentation\nThese newer tools focus more directly on **LLM/search assistant visibility analytics**.\n\n**Best for**\n- Teams testing AI search as a channel\n- Marketers wanting faster experimentation\n- Companies okay with newer vendors\n\n---\n\n## My recommendation by company stage\n\n### If you’re an early-stage B2B SaaS:\nGo with:\n- **Ahrefs or Semrush**\n- **Technical SEO + schema**\n- **Comparison",
+  "citations": [],
+  "mention_count": 0,
+  "error": null,
+  "public_redaction": {
+    "generated_at": "2026-06-26T08:34:03.844Z",
+    "raw_transport_payloads_removed": true,
+    "local_paths_removed": true,
+    "credential_like_values_removed": true,
+    "internal_retry_history_removed": true
+  },
+  "publication_provenance": {
+    "successful_datapoints_are_immutable": true,
+    "failed_datapoints_may_be_recovered_by_later_live_attempts": true,
+    "public_raw_exposes_final_sampled_timestamp_only": true
+  }
+}

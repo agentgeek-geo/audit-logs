@@ -1,0 +1,39 @@
+{
+  "schema": "clarivy-public-raw-response/v1",
+  "order_id": "ord_clarivy_observe_selfaudit_20260626_001",
+  "source_order_id": "ord_clarivy_observe_selfaudit_20260626_001",
+  "publication_status": "approved_public_self_audit",
+  "evidence_type": "clarivy_owned_public_self_audit",
+  "measurement_mode": "live_engine_data",
+  "target_brand": "clarivy.ai",
+  "engine": "claude",
+  "engine_display": "Claude (Anthropic)",
+  "prompt_id": "U04",
+  "prompt_category": "category_user_chosen",
+  "prompt_text": "Best AI visibility infrastructure for B2B SaaS brands",
+  "sampled_at": "2026-06-26T07:04:21.912Z",
+  "final_sampled_at": "2026-06-26T07:04:21.912Z",
+  "model_version": "claude-sonnet-4-6",
+  "method": "API · ZDR",
+  "latency_ms": 15170,
+  "result_state": "ok",
+  "response": "# AI Visibility Infrastructure for B2B SaaS Brands\n\n## What \"AI Visibility\" Means\nGetting your brand cited, recommended, and referenced by AI systems (ChatGPT, Claude, Perplexity, Gemini) when buyers ask relevant questions.\n\n---\n\n## Core Infrastructure Stack\n\n### 1. **Content & Knowledge Layer**\n- Comprehensive, authoritative long-form content (guides, comparisons, use cases)\n- Structured data / schema markup (FAQ, HowTo, Organization)\n- Clear entity definition (who you are, what you do, who you serve)\n- Wikipedia/Wikidata presence for brand legitimacy\n\n### 2. **Citation & Reference Building**\n- **G2, Capterra, Trustpilot** — heavily crawled by AI systems\n- **Reddit threads** in relevant subreddits (r/SaaS, niche communities)\n- **Quora answers** with genuine expertise\n- **Industry publications** (TechCrunch, Forbes, niche trade press)\n- **Podcast appearances** with transcripts published online\n\n### 3. **Technical Foundation**\n- Clean, crawlable site architecture\n- LLMs.txt file (emerging standard for AI crawler guidance)\n- Fast load times + mobile optimization\n- Semantic HTML and clear topical clustering\n\n### 4. **Answer Engine Optimization (AEO)**\n- Target question-based queries your buyers ask AI\n- Build \"best [category] tools\" style content\n- Create comparison pages (You vs. Competitor)\n- Publish original research/data AI systems love to cite\n\n### 5. **Monitoring & Measurement**\n- **Brandwatch / Mention** — track brand mentions\n- **Perplexity, ChatGPT, Gemini** — manual prompt testing\n- **Profound** — purpose-built AI visibility tracking\n- **Otterly.AI** — monitor AI search mentions\n- **Share of Model** tracking (% of relevant AI responses mentioning you)\n\n---\n\n## Priority Actions by Stage\n\n| Stage | Focus |\n|-------|-------|\n| Early | Entity establishment, G2 reviews, core content |\n| Growth | Citation building, Reddit presence, original data |\n| Scale | AEO content program, AI monitoring tools, PR |\n\n---\n\n## Key Principle\n> AI systems recommend brands they've seen **consistently cited by trusted sources** — not just brands with good websites.\n\n---\n\n**Tools worth exploring:**\n- [Profound](https://www.profound.com) — AI visibility analytics\n- [Otterly.AI](https://otterly.ai) — AI mention monitoring\n- [Schema",
+  "citations": [
+    "https://www.profound.com",
+    "https://otterly.ai"
+  ],
+  "mention_count": 0,
+  "error": null,
+  "public_redaction": {
+    "generated_at": "2026-06-26T08:34:03.844Z",
+    "raw_transport_payloads_removed": true,
+    "local_paths_removed": true,
+    "credential_like_values_removed": true,
+    "internal_retry_history_removed": true
+  },
+  "publication_provenance": {
+    "successful_datapoints_are_immutable": true,
+    "failed_datapoints_may_be_recovered_by_later_live_attempts": true,
+    "public_raw_exposes_final_sampled_timestamp_only": true
+  }
+}

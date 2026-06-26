@@ -1,0 +1,36 @@
+{
+  "schema": "clarivy-public-raw-response/v1",
+  "order_id": "ord_clarivy_observe_selfaudit_20260626_001",
+  "source_order_id": "ord_clarivy_observe_selfaudit_20260626_001",
+  "publication_status": "approved_public_self_audit",
+  "evidence_type": "clarivy_owned_public_self_audit",
+  "measurement_mode": "live_engine_data",
+  "target_brand": "clarivy.ai",
+  "engine": "claude",
+  "engine_display": "Claude (Anthropic)",
+  "prompt_id": "U03",
+  "prompt_category": "category_user_chosen",
+  "prompt_text": "Clarivy Observe AI visibility monitoring review",
+  "sampled_at": "2026-06-26T07:04:13.373Z",
+  "final_sampled_at": "2026-06-26T07:04:13.373Z",
+  "model_version": "claude-sonnet-4-6",
+  "method": "API · ZDR",
+  "latency_ms": 9104,
+  "result_state": "ok",
+  "response": "# Clarivy & Observe AI: Visibility Monitoring Review\n\n## Overview\n\nThese are two distinct platforms often evaluated for **conversation intelligence** and **AI-powered monitoring** in contact center/customer experience environments.\n\n---\n\n## Observe.AI\n\n### Key Features\n- **Real-time agent guidance** during live calls\n- **100% call transcription** and analysis\n- **Sentiment analysis** and emotion detection\n- **QA automation** (replaces manual call scoring)\n- **Coaching workflows** for supervisors\n- **Compliance monitoring**\n\n### Strengths ✅\n- Strong NLP accuracy for transcription\n- Deep CRM integrations (Salesforce, Zendesk)\n- Scalable for large contact centers\n- Robust reporting dashboards\n\n### Weaknesses ❌\n- Can be expensive for smaller teams\n- Setup/onboarding complexity\n- Occasional transcription errors with heavy accents\n\n---\n\n## Clarivy\n\n> ⚠️ **Note:** \"Clarivy\" is not a widely recognized platform in major review databases as of my knowledge cutoff. It's possible this is:\n> - A **newer or niche product**\n> - A **misspelling** (e.g., *Clarabridge*, *Clarity*, *Clari*)\n> - A **regional/emerging vendor**\n\n---\n\n## Recommendation\n\nCould you clarify what **Clarivy** refers to? I want to ensure accuracy rather than provide incorrect information.\n\nAre you perhaps looking for a comparison with **Clari**, **Clarabridge**, or another platform?",
+  "citations": [],
+  "mention_count": 1,
+  "error": null,
+  "public_redaction": {
+    "generated_at": "2026-06-26T08:34:03.844Z",
+    "raw_transport_payloads_removed": true,
+    "local_paths_removed": true,
+    "credential_like_values_removed": true,
+    "internal_retry_history_removed": true
+  },
+  "publication_provenance": {
+    "successful_datapoints_are_immutable": true,
+    "failed_datapoints_may_be_recovered_by_later_live_attempts": true,
+    "public_raw_exposes_final_sampled_timestamp_only": true
+  }
+}

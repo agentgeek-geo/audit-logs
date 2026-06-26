@@ -1,0 +1,41 @@
+{
+  "schema": "clarivy-public-raw-response/v1",
+  "order_id": "ord_clarivy_observe_selfaudit_20260626_001",
+  "source_order_id": "ord_clarivy_observe_selfaudit_20260626_001",
+  "publication_status": "approved_public_self_audit",
+  "evidence_type": "clarivy_owned_public_self_audit",
+  "measurement_mode": "live_engine_data",
+  "target_brand": "clarivy.ai",
+  "engine": "kimi",
+  "engine_display": "Kimi (Moonshot AI)",
+  "prompt_id": "U04",
+  "prompt_category": "category_user_chosen",
+  "prompt_text": "Best AI visibility infrastructure for B2B SaaS brands",
+  "sampled_at": "2026-06-26T08:32:33.749Z",
+  "final_sampled_at": "2026-06-26T08:32:33.749Z",
+  "model_version": "moonshotai/kimi-k2.6",
+  "method": "API · ZDR",
+  "latency_ms": 118174,
+  "result_state": "ok",
+  "response": "B2B SaaS 的 AI 可见性（Generative Engine Optimization, GEO）没有单一“最佳”工具，而是一套**分层基础设施**。当前最有效的组合如下：\n\n**1. GEO 监控与优化层（核心新基建）**\n- **Profound**：目前最专门的 AI 可见性平台，可监测品牌在 ChatGPT、Perplexity、Claude 等生成式答案中的提及率、情绪与 Share of Voice，并提供针对性优化建议。\n\n**2. 信任与实体数据层（B2B SaaS 命脉）**\n- **G2 / Capterra / TrustRadius**：大模型训练与检索极度依赖这些站点的对比与评价数据，完善档案并积累真实用户评论是必选项。\n- **Crunchbase / LinkedIn**：建立企业实体图谱，帮助 AI 准确识别品牌身份、融资背景与所属赛道。\n\n**3. 内容与技术层**\n- **结构化内容**：围绕“对比（vs）、替代方案、定价、客户场景”创作，直接回答 AI 在购买决策环节最常引用的查询。\n- **Schema.org 标记 + llms.txt**：让 AI 爬虫高效抓取产品功能、集成、价格等关键信息。\n- **公开 API / 开发者文档**：便于 AI Agent 直接调用或引用你的技术能力。\n\n**4. 权威引用层**\n- 行业媒体、垂直社区、分析师报告（如 Gartner/Forrester）及 Wikipedia 的高质量外链，仍是 AI 判断品牌可信度的核心信号。\n\n**落地优先级建议**：先完善 G2/Crunchbase 资料与 Schema 标记，同步接入 Profound 监测，再系统性生产对比类与场景化内容，最后通过数字公关获取权威引用。\n\n[Profound](https://www.getprofound.ai) | [G2](https://www.g2.com) | [llms.txt](https://llmstxt.org) | [Schema.org](https://schema.org)",
+  "citations": [
+    "https://www.getprofound.ai",
+    "https://www.g2.com",
+    "https://llmstxt.org",
+    "https://schema.org"
+  ],
+  "mention_count": 0,
+  "error": null,
+  "public_redaction": {
+    "generated_at": "2026-06-26T08:34:03.844Z",
+    "raw_transport_payloads_removed": true,
+    "local_paths_removed": true,
+    "credential_like_values_removed": true,
+    "internal_retry_history_removed": true
+  },
+  "publication_provenance": {
+    "successful_datapoints_are_immutable": true,
+    "failed_datapoints_may_be_recovered_by_later_live_attempts": true,
+    "public_raw_exposes_final_sampled_timestamp_only": true
+  }
+}

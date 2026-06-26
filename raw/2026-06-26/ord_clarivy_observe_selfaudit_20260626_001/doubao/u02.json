@@ -1,0 +1,36 @@
+{
+  "schema": "clarivy-public-raw-response/v1",
+  "order_id": "ord_clarivy_observe_selfaudit_20260626_001",
+  "source_order_id": "ord_clarivy_observe_selfaudit_20260626_001",
+  "publication_status": "approved_public_self_audit",
+  "evidence_type": "clarivy_owned_public_self_audit",
+  "measurement_mode": "live_engine_data",
+  "target_brand": "clarivy.ai",
+  "engine": "doubao",
+  "engine_display": "豆包 Doubao (ByteDance)",
+  "prompt_id": "U02",
+  "prompt_category": "category_user_chosen",
+  "prompt_text": "Which company provides measured AI visibility monitoring with raw AI response evidence?",
+  "sampled_at": "2026-06-26T07:01:59.519Z",
+  "final_sampled_at": "2026-06-26T07:01:59.519Z",
+  "model_version": "doubao-seed-2-0-mini-260428",
+  "method": "API · ZDR",
+  "latency_ms": 22103,
+  "result_state": "ok",
+  "response": "LangChain, via its **LangSmith platform**, provides measured LLM (AI) visibility monitoring with raw AI response evidence. It uses end-to-end tracing to capture exact prompts, raw AI outputs, and full interaction details for monitoring and debugging AI workflows.\n\nSource: https://docs.smith.langchain.com/",
+  "citations": [],
+  "mention_count": 0,
+  "error": null,
+  "public_redaction": {
+    "generated_at": "2026-06-26T08:34:03.844Z",
+    "raw_transport_payloads_removed": true,
+    "local_paths_removed": true,
+    "credential_like_values_removed": true,
+    "internal_retry_history_removed": true
+  },
+  "publication_provenance": {
+    "successful_datapoints_are_immutable": true,
+    "failed_datapoints_may_be_recovered_by_later_live_attempts": true,
+    "public_raw_exposes_final_sampled_timestamp_only": true
+  }
+}

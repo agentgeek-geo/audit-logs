@@ -1,0 +1,36 @@
+{
+  "schema": "clarivy-public-raw-response/v1",
+  "order_id": "ord_clarivy_observe_selfaudit_20260626_001",
+  "source_order_id": "ord_clarivy_observe_selfaudit_20260626_001",
+  "publication_status": "approved_public_self_audit",
+  "evidence_type": "clarivy_owned_public_self_audit",
+  "measurement_mode": "live_engine_data",
+  "target_brand": "clarivy.ai",
+  "engine": "chatgpt",
+  "engine_display": "ChatGPT (OpenAI)",
+  "prompt_id": "U03",
+  "prompt_category": "category_user_chosen",
+  "prompt_text": "Clarivy Observe AI visibility monitoring review",
+  "sampled_at": "2026-06-26T07:03:54.486Z",
+  "final_sampled_at": "2026-06-26T07:03:54.486Z",
+  "model_version": "gpt-5.4-2026-03-05",
+  "method": "API · ZDR",
+  "latency_ms": 8271,
+  "result_state": "ok",
+  "response": "If you mean **Clarify / Observe / AI visibility monitoring** as a category review, here’s a concise take:\n\n## AI visibility monitoring: quick review\nAI visibility monitoring tools help brands track **how they appear inside AI-generated answers** from systems like ChatGPT, Gemini, Perplexity, and Claude. Instead of only monitoring search rankings, they measure **AI mentions, citations, sentiment, accuracy, and competitive share of voice**.\n\n## What these platforms typically do\n- **Prompt tracking**: Run sets of prompts and see whether your brand appears.\n- **Citation/source monitoring**: Identify which websites or documents AI systems rely on.\n- **Competitor comparison**: Compare your visibility against rivals.\n- **Sentiment / positioning analysis**: Check whether the AI describes your product correctly.\n- **Alerting**: Notify teams when visibility drops or misinformation appears.\n- **Optimization guidance**: Recommend content or PR actions to improve AI discoverability.\n\n## Strengths\n- Useful for brands worried about **AI answer engines replacing traditional search clicks**.\n- Helps marketing and comms teams detect **misrepresentation or missing brand presence**.\n- Good for **early GEO / AEO strategy** (Generative Engine Optimization / Answer Engine Optimization).\n- Can reveal **which sources influence AI answers**, which is often more actionable than raw rankings.\n\n## Weaknesses / limitations\n- Results can be **volatile** because AI answers change by model, location, prompt wording, and time.\n- Monitoring is often **sample-based**, not a complete picture.\n- Attribution is imperfect: a tool may show correlation, but not always **why** visibility changed.\n- Some vendors overpromise on “ranking” in AI systems that do not behave like search engines.\n- Enterprise value depends heavily on **prompt set quality** and reporting depth.\n\n## Who should use it\nBest fit:\n- Mid-market to enterprise brands\n- SEO, digital PR, brand, and product marketing teams\n- Companies in competitive categories where AI assistants influence buying decisions\n\nLess useful for:\n- Very small businesses with limited brand search demand\n- Teams that have not yet matured basic SEO/content analytics\n\n## What to evaluate in a vendor\nIf you’re reviewing a specific platform like “Clarivy Observe” or a similar product, check:\n1. **Model coverage**: ChatGPT, Gemini, Claude, Perplexity, etc.\n2. **Prompt methodology**: How prompts are created, refreshed, and segmented.\n3. **Citation transparency**: Can you see source URLs and frequency?\n4. **Accuracy checks**: Does it detect hallucinations or factual errors?\n5. **Competitive benchmarking**: Share of voice by topic/use case.\n6. **Workflow integration**: Dashboards, exports, API, alerts, Slack/email.\n7. **Historical tracking**: Trend lines over weeks/months.\n8. **Actionability**: Clear recommendations, not just charts.\n9. **Pricing**",
+  "citations": [],
+  "mention_count": 0,
+  "error": null,
+  "public_redaction": {
+    "generated_at": "2026-06-26T08:34:03.844Z",
+    "raw_transport_payloads_removed": true,
+    "local_paths_removed": true,
+    "credential_like_values_removed": true,
+    "internal_retry_history_removed": true
+  },
+  "publication_provenance": {
+    "successful_datapoints_are_immutable": true,
+    "failed_datapoints_may_be_recovered_by_later_live_attempts": true,
+    "public_raw_exposes_final_sampled_timestamp_only": true
+  }
+}

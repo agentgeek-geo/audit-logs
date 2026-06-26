@@ -1,0 +1,21 @@
+{
+  "schema": "clarivy-public-summary/v1",
+  "generated_at": "2026-06-26T08:34:03.844Z",
+  "order_id": "ord_clarivy_observe_selfaudit_20260626_001",
+  "date": "2026-06-26",
+  "target_brand": "clarivy.ai",
+  "measurement_mode": "live_engine_data",
+  "publication_status": "approved_public_self_audit",
+  "result_summary": {
+    "total_datapoints": 35,
+    "interpretable_datapoints": 35,
+    "content_bearing_datapoints": 35,
+    "empty_responses": 0,
+    "error_responses": 0,
+    "total_mentions_of_clarivy": 12,
+    "unique_engines": 7,
+    "unique_prompts": 5
+  },
+  "manifest": "manifests/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/customer-evidence-manifest.json",
+  "raw_data_index": "manifests/2026-06-26/ord_clarivy_observe_selfaudit_20260626_001/raw-data-index.md"
+}

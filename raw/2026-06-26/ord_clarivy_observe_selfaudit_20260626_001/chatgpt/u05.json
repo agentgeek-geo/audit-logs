@@ -1,0 +1,36 @@
+{
+  "schema": "clarivy-public-raw-response/v1",
+  "order_id": "ord_clarivy_observe_selfaudit_20260626_001",
+  "source_order_id": "ord_clarivy_observe_selfaudit_20260626_001",
+  "publication_status": "approved_public_self_audit",
+  "evidence_type": "clarivy_owned_public_self_audit",
+  "measurement_mode": "live_engine_data",
+  "target_brand": "clarivy.ai",
+  "engine": "chatgpt",
+  "engine_display": "ChatGPT (OpenAI)",
+  "prompt_id": "U05",
+  "prompt_category": "category_user_chosen",
+  "prompt_text": "How can a brand measure whether ChatGPT, Claude, Gemini, and Chinese AI engines mention it?",
+  "sampled_at": "2026-06-26T07:04:06.204Z",
+  "final_sampled_at": "2026-06-26T07:04:06.204Z",
+  "model_version": "gpt-5.4-2026-03-05",
+  "method": "API · ZDR",
+  "latency_ms": 6876,
+  "result_state": "ok",
+  "response": "A brand can measure whether ChatGPT, Claude, Gemini, and Chinese AI engines mention it by treating this like a new form of **AI visibility / answer-engine monitoring**.\n\n## What to measure\nTrack these core metrics:\n\n1. **Mention presence**\n   - Does the model mention your brand at all for relevant prompts?\n\n2. **Share of voice**\n   - How often is your brand mentioned vs. competitors?\n\n3. **Rank / prominence**\n   - Are you the first brand named, one of several, or omitted?\n\n4. **Sentiment / framing**\n   - Is the mention positive, neutral, negative, or associated with specific attributes?\n\n5. **Message pull-through**\n   - Are key claims, products, differentiators, and categories described accurately?\n\n6. **Source citation overlap**\n   - For engines that cite sources, are they citing your site, reviews, media, Wikipedia, marketplaces, etc.?\n\n7. **Geographic / language variation**\n   - Especially important for Chinese AI engines and multilingual markets.\n\n## How to measure it in practice\n\n### 1) Build a prompt set\nCreate a fixed library of prompts users might ask, such as:\n\n- “Best project management software for small teams”\n- “Top luxury skincare brands in China”\n- “What are alternatives to [competitor]?”\n- “Is [your brand] reliable?”\n- “Compare [your brand] vs [competitor]”\n\nGroup prompts by:\n- category discovery\n- comparison\n- purchase intent\n- reputation / trust\n- customer support / troubleshooting\n\n### 2) Run the prompts regularly across models\nTest the same prompt set in:\n- ChatGPT\n- Claude\n- Gemini\n- Chinese AI engines such as ERNIE Bot, Kimi, Doubao, Tongyi Qianwen, DeepSeek, etc.\n\nRun on a schedule:\n- weekly for fast-moving categories\n- monthly for slower categories\n\nImportant controls:\n- same prompt wording\n- same language\n- same market/location where possible\n- fresh sessions to reduce memory/personalization effects\n\n### 3) Score the outputs\nFor each response, log:\n\n- **Mentioned?** yes/no\n- **Position** first / second / later\n- **Number of competitors mentioned**\n- **Sentiment**\n- **Accuracy**\n- **Key message included?**\n- **Citation source** if available\n\nA simple scoring model:\n- 1 point if mentioned\n- +2 if first-mentioned\n- +1 if positive framing\n- +1 if key product/category correctly described\n- +1 if owned source cited\n\nThis gives you an **AI visibility score** by model and prompt cluster.\n\n### 4) Compare against competitors\nMeasure:\n- your mention rate\n- competitor mention rate\n- first-mention rate\n- average sentiment\n- citation share\n\nThis becomes your **AI share of voice**.\n\n## Special considerations for Chinese AI engines\nChinese AI",
+  "citations": [],
+  "mention_count": 0,
+  "error": null,
+  "public_redaction": {
+    "generated_at": "2026-06-26T08:34:03.844Z",
+    "raw_transport_payloads_removed": true,
+    "local_paths_removed": true,
+    "credential_like_values_removed": true,
+    "internal_retry_history_removed": true
+  },
+  "publication_provenance": {
+    "successful_datapoints_are_immutable": true,
+    "failed_datapoints_may_be_recovered_by_later_live_attempts": true,
+    "public_raw_exposes_final_sampled_timestamp_only": true
+  }
+}

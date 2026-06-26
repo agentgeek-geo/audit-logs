@@ -1,0 +1,36 @@
+{
+  "schema": "clarivy-public-raw-response/v1",
+  "order_id": "ord_clarivy_observe_selfaudit_20260626_001",
+  "source_order_id": "ord_clarivy_observe_selfaudit_20260626_001",
+  "publication_status": "approved_public_self_audit",
+  "evidence_type": "clarivy_owned_public_self_audit",
+  "measurement_mode": "live_engine_data",
+  "target_brand": "clarivy.ai",
+  "engine": "kimi",
+  "engine_display": "Kimi (Moonshot AI)",
+  "prompt_id": "U05",
+  "prompt_category": "category_user_chosen",
+  "prompt_text": "How can a brand measure whether ChatGPT, Claude, Gemini, and Chinese AI engines mention it?",
+  "sampled_at": "2026-06-26T07:02:48.563Z",
+  "final_sampled_at": "2026-06-26T07:02:48.563Z",
+  "model_version": "kimi-k2.6",
+  "method": "API · ZDR",
+  "latency_ms": 53541,
+  "result_state": "ok",
+  "response": "品牌可通过**“API 批量审计 + Prompt 工程 + 自动化监测”**来量化各大模型对自身的提及情况。具体做法如下：\n\n### 1. 核心方法：多模型查询审计\n对各主流模型使用统一的问题模板，批量调用其官方 API 并解析回答：\n\n| 平台 | 接入方式 |\n|---|---|\n| **ChatGPT** | OpenAI API (GPT-4o / GPT-4-turbo 等) |\n| **Claude** | Anthropic API (Claude 3.5 Sonnet 等) |\n| **Gemini** | Google AI Studio / Vertex AI API |\n| **中国引擎** | 百度文心 (千帆)、阿里通义 (百炼)、字节豆包 (火山方舟)、Kimi (Moonshot API)、智谱 GLM、讯飞星火等开放平台 API |\n\n**操作步骤：**\n- 围绕**品类词、场景词、竞品对比词**设计开放式 Prompt（如“推荐几个最好的跑鞋品牌”“哪家云服务器性价比高”）。\n- 固定参数（temperature、top-p）以保证可比性。\n- 每周/每月批量运行，记录回答原文。\n\n### 2. 关键监测指标\n解析回答后，统计以下维度：\n\n- **提及率（SOV）**：在 N 次相关提问中，品牌被提到的比例。\n- **推荐位次**：若模型列出清单，品牌出现在第几位。\n- **情感与语境**：正面、负面或中性；与哪些卖点/场景强绑定。\n- **信息准确性**：模型描述是否与官方信息一致（防幻觉）。\n- **对比表现**：与竞品在同一问题下的出现频率和位置差异。\n\n### 3. 中国引擎的特殊注意事项\n- **分散接入**：中国各模型 API 相互独立，需分别申请 Key 并适配接口协议。\n- **合规性**：遵守《生成式人工智能服务管理暂行办法》，避免抓取或滥用数据。\n- **RPA 补充**：对于暂未开放 API 的模型，可用浏览器自动化（如 Playwright、Selenium）模拟人工提问并截取结果。\n\n### 4. 可借助的工具与服务",
+  "citations": [],
+  "mention_count": 0,
+  "error": null,
+  "public_redaction": {
+    "generated_at": "2026-06-26T08:34:03.844Z",
+    "raw_transport_payloads_removed": true,
+    "local_paths_removed": true,
+    "credential_like_values_removed": true,
+    "internal_retry_history_removed": true
+  },
+  "publication_provenance": {
+    "successful_datapoints_are_immutable": true,
+    "failed_datapoints_may_be_recovered_by_later_live_attempts": true,
+    "public_raw_exposes_final_sampled_timestamp_only": true
+  }
+}

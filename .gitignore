@@ -1,0 +1,15 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+node_modules/
+
+# Local operator scratch files
+tmp/
+*.log
+
+# Never publish signed private bundles by accident.
+*-private.json
+*-secret.json
+*.pem
+*.key

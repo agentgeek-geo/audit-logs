@@ -1,0 +1,29 @@
+{
+  "schema": "clarivy-public-raw-response/v1",
+  "publication_status": "approved_public_self_audit",
+  "measurement_mode": "live_engine_data",
+  "source_schema_note": "Source run predates the standardized measurement_mode field. Public copy preserves the observed API datapoint and adds publication metadata.",
+  "order_id": "ord_real_snapshot_20260614_001",
+  "target_brand": "clarivy.ai",
+  "engine": "qwen",
+  "method": "API · enterprise ZDR",
+  "model_version": "qwen3.7-plus",
+  "prompt_id": "U02",
+  "prompt_text": "中文 GEO 审计 哪家好",
+  "response": "",
+  "citations": [],
+  "mention_count": 0,
+  "result_state": "error",
+  "is_interpretable": false,
+  "sampled_at": "2026-06-14T04:56:02.437Z",
+  "latency_ms": 40836,
+  "error": {
+    "kind": "network",
+    "message": "fetch failed",
+    "retryable": false
+  },
+  "publication_notes": [
+    "This is a Clarivy-owned public self-audit datapoint, not third-party customer data.",
+    "Empty responses and error responses are preserved as evidence of the run state and must not be treated as confirmed negative visibility signals."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema": "clarivy-public-raw-response/v1",
+  "publication_status": "approved_public_self_audit",
+  "measurement_mode": "live_engine_data",
+  "source_schema_note": "Source run predates the standardized measurement_mode field. Public copy preserves the observed API datapoint and adds publication metadata.",
+  "order_id": "ord_real_snapshot_20260614_001",
+  "target_brand": "clarivy.ai",
+  "engine": "kimi",
+  "method": "API · ZDR",
+  "model_version": "kimi-k2.6",
+  "prompt_id": "U02",
+  "prompt_text": "中文 GEO 审计 哪家好",
+  "response": "",
+  "citations": [],
+  "mention_count": 0,
+  "result_state": "empty_response",
+  "is_interpretable": false,
+  "sampled_at": "2026-06-14T04:55:06.394Z",
+  "latency_ms": 12941,
+  "error": null,
+  "publication_notes": [
+    "This is a Clarivy-owned public self-audit datapoint, not third-party customer data.",
+    "Empty responses and error responses are preserved as evidence of the run state and must not be treated as confirmed negative visibility signals."
+  ]
+}

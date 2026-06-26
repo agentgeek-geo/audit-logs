@@ -1,0 +1,64 @@
+{
+  "schema": "clarivy-public-sample-summary/v1",
+  "order_id": "ord_real_snapshot_20260614_001",
+  "target_brand": "clarivy.ai",
+  "measurement_mode": "live_engine_data",
+  "result_summary": {
+    "total_datapoints": 12,
+    "interpretable_datapoints": 2,
+    "empty_responses": 5,
+    "error_responses": 5,
+    "total_mentions_of_clarivy": 0,
+    "caveat": "Only interpretable datapoints should be used for market conclusions. Empty and error datapoints are published as run-state evidence."
+  },
+  "per_engine": [
+    {
+      "engine": "doubao",
+      "datapoints": 3,
+      "ok": 0,
+      "empty_response": 0,
+      "error": 3,
+      "mentions": 0,
+      "path": "raw/2026-06-14/ord_real_snapshot_20260614_001/doubao/"
+    },
+    {
+      "engine": "kimi",
+      "datapoints": 3,
+      "ok": 1,
+      "empty_response": 2,
+      "error": 0,
+      "mentions": 0,
+      "path": "raw/2026-06-14/ord_real_snapshot_20260614_001/kimi/"
+    },
+    {
+      "engine": "deepseek",
+      "datapoints": 3,
+      "ok": 0,
+      "empty_response": 3,
+      "error": 0,
+      "mentions": 0,
+      "path": "raw/2026-06-14/ord_real_snapshot_20260614_001/deepseek/"
+    },
+    {
+      "engine": "qwen",
+      "datapoints": 3,
+      "ok": 1,
+      "empty_response": 0,
+      "error": 2,
+      "mentions": 0,
+      "path": "raw/2026-06-14/ord_real_snapshot_20260614_001/qwen/"
+    }
+  ],
+  "urls": {
+    "repository": "https://github.com/agentgeek-geo/audit-logs",
+    "raw_base": "https://github.com/agentgeek-geo/audit-logs/tree/main/raw/2026-06-14/ord_real_snapshot_20260614_001",
+    "manifest_base": "https://github.com/agentgeek-geo/audit-logs/tree/main/manifests/2026-06-14/ord_real_snapshot_20260614_001",
+    "sample_summary": "https://github.com/agentgeek-geo/audit-logs/tree/main/samples/clarivy-self-audit-2026-06-14/README.md"
+  },
+  "caveats": [
+    "This is a legacy early Clarivy self-audit, not the current Snapshot Baseline contract.",
+    "The run covered 4 engines and 3 prompts, not the current 7 endpoint x 5 query Snapshot Baseline.",
+    "10 of 12 datapoints were empty or error states. The headline 0/12 is preserved as the generated report output, but only 2 interpretable responses are useful as substantive model answers.",
+    "The public copy adds measurement_mode and publication metadata because the original run predates the standardized field."
+  ]
+}

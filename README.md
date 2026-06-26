@@ -11,7 +11,15 @@ https://github.com/agentgeek-geo/audit-logs
 ## Status
 
 This repository is the public landing repository for Clarivy evidence packages.
-It is safe to publish. It does not contain customer raw responses yet.
+It is safe to publish. It contains one approved public Clarivy-owned self-audit
+evidence package; it does not contain third-party customer raw responses.
+
+First public evidence package:
+
+- Summary: `samples/clarivy-self-audit-2026-06-14/`
+- Manifest: `manifests/2026-06-14/ord_real_snapshot_20260614_001/customer-evidence-manifest.json`
+- Raw index: `manifests/2026-06-14/ord_real_snapshot_20260614_001/raw-data-index.md`
+- Raw datapoints: `raw/2026-06-14/ord_real_snapshot_20260614_001/`
 
 Customer-facing evidence claims must come from a delivered order package with:
 
@@ -22,6 +30,11 @@ Customer-facing evidence claims must come from a delivered order package with:
 
 Mock, sample, demo, and smoke-test artifacts are structure-only and must not be
 cited as live AI visibility evidence.
+
+Legacy note: the 2026-06-14 Clarivy self-audit predates the standardized
+`measurement_mode` field in the private runner output. The public copy preserves
+the original observed API datapoints and adds publication metadata in the public
+JSON files and manifest.
 
 ## Intended Layout
 
